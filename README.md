@@ -10,10 +10,10 @@ As I was working on someone else's code, I made sure to adhere to the **Scout Ru
 ```
 + SUPPLY a webpage that meets accessibility standards
 + WHEN viewing source code : THEN FIND semantic HTML elements
-+ WHEN viewing structure of the HTML elements : THEN FIND elements following a logical structure, independent of styling and positioning
++ WHEN viewing structure of the HTML elements : THEN FIND elements follow a logical structure
 + WHEN viewing image elements : THEN FIND accessible alt attributes
 + WHEN viewing heading attributes : THEN FIND they fall in sequential order
-+ WHEN I view the title element : THEN FIND a concise, descriptive title
++ WHEN viewing title element : THEN FIND a concise, descriptive title
 ```
 
 ## Target Design
@@ -36,7 +36,7 @@ The following image shows the web application's appearance and functionality:
 
 6. Application's HTML structure rearranged more logically.
 
-7. Application's images updated with alternative text attributes.
+7. Application's images updated with alternative text (alt) attributes.
 
 ### Usability
 
