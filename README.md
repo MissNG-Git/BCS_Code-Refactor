@@ -2,7 +2,7 @@
 
 ## Website Accessibility Optimization
 
-Starting with a client-provided foundation code, my task was to refactor (improve without changing functionality) the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/index.html">HTML</a> & <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> files to ensure elements were included to ensure accessbility of the site. This will allow for people with disabilities to access the website with assistive technologies and also position the site more favourably on search engines like Google 😄 :smile: 
+Starting with a client-provided foundation code, my task was to refactor (improve without changing functionality) the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/index.html">HTML</a> & <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> files to ensure accessibility elements were included for the site. This will allow for people with disabilities to access the website with assistive technologies and also position the site more favorably on search engines like Google 😄 :smile: 
 
 As I was working on someone else's code, I made sure to adhere to the **Scout Rule** and have *hopefully* left the code a little cleaner than what was originally supplied. I tried to improve the codebase with long-term sustainability in mind, and made sure that all links are functioning correctly. I've also reworked the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
@@ -20,7 +20,7 @@ As I was working on someone else's code, I made sure to adhere to the **Scout Ru
 
 The following image shows the web application's appearance and functionality:
 
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
+![intended design](./Assets/01-html-css-git-homework-demo.png)
 
 ### Overview of Code Improvements & Functionality
 
@@ -30,11 +30,11 @@ The following image shows the web application's appearance and functionality:
 
 3. Application's CSS file is properly commented.
 
-4. Application's titll amended to be more descriptive.
+4. Application's title amended to be more descriptive.
 
 5. Application's HTML elements refined to be more semantically-appropriate.
 
-6. Application's HTML structure rearranged more logically.
+6. Application's HTML structure re-arranged more logically.
 
 7. Application's images updated with alternative text (alt) attributes.
 
