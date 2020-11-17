@@ -1,101 +1,39 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Your Task
+## Website Accessibility Optimization
 
-**Note**: Be sure to review the [Homework Guide](../Supplemental/Homework-Guide/README.md) and the [Good README Guide](../Supplemental/Good-README-Guide/README.md) before you start working on this assignment!
+Starting with a client-provided foundation code, my task was to refactor (improve without changing functionality) the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/index.html">HTML</a> & <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> files to ensure elements were included to ensure accessbility of the site. This will allow for people with disabilities to access the website with assistive technologies and also position the site more favourably on search engines like Google :simple_smile:
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+As I was working on someone else's code, I made sure to adhere to the **Scout Rule** and have *hopefully* left the code a little cleaner than what was originally supplied. I tried to improve the codebase with long-term sustainability in mind, and made sure that all links are functioning correctly. I've also reworked the <a href="https://github.com/MissNG-Git/BCS_Code-Refactor/blob/main/Develop/assets/css/style.css">CSS</a> to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
-
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
-
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
-
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
+## Objectives
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
++ SUPPLY a webpage that meets accessibility standards
++ WHEN viewing source code : THEN FIND semantic HTML elements
++ WHEN viewing structure of the HTML elements : THEN FIND elements following a logical structure, independent of styling and positioning
++ WHEN viewing image elements : THEN FIND accessible alt attributes
++ WHEN viewing heading attributes : THEN FIND they fall in sequential order
++ WHEN I view the title element : THEN FIND a concise, descriptive title
 ```
 
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Mock-Up
+## Target Design
 
 The following image shows the web application's appearance and functionality:
 
 ![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
 
+### Overview of Code Improvements & Functionality
 
-## Grading Requirements
+* Application's links all function correctly.
 
-This homework is graded based on the following criteria: 
+* Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
-### Technical Acceptance Criteria: 40%
+* Application's CSS file is properly commented.
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
+* Application's titel amended to be more descriptive.
 
-  * Application's links all function correctly.
+* Application's HTML elements refined to be more semantically-appropriate.
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+* Application's HTML structure rearranged more logically.
 
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+* Application's images updated with alternative text attributes.
